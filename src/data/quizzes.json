@@ -1,0 +1,84 @@
+{
+  "quizzes": [
+    {
+      "id": "general-knowledge",
+      "name": "General Knowledge Quiz",
+      "description": "Test your knowledge across various topics including geography, science, and math.",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": 1,
+          "text": "What is the capital of France?",
+          "options": ["London", "Berlin", "Paris", "Madrid"],
+          "correctAnswer": 2,
+          "type": "multiple-choice",
+          "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600&q=80"
+        },
+        {
+          "id": 2,
+          "text": "Which planet is known as the Red Planet?",
+          "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+          "correctAnswer": 1,
+          "type": "multiple-choice",
+          "image": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=600&q=80"
+        },
+        {
+          "id": 3,
+          "text": "What is 2 + 2?",
+          "options": ["3", "4", "5", "6"],
+          "correctAnswer": 1,
+          "type": "multiple-choice"
+        },
+        {
+          "id": 4,
+          "text": "The Earth is flat.",
+          "options": ["True", "False"],
+          "correctAnswer": 1,
+          "type": "true-false",
+          "image": "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=600&q=80"
+        },
+        {
+          "id": 5,
+          "text": "Water boils at 100 degrees Celsius at sea level.",
+          "options": ["True", "False"],
+          "correctAnswer": 0,
+          "type": "true-false"
+        }
+      ]
+    },
+    {
+      "id": "programming",
+      "name": "Programming Basics",
+      "description": "Test your knowledge of basic programming concepts and terminology.",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": 1,
+          "text": "JavaScript is a statically typed language.",
+          "options": ["True", "False"],
+          "correctAnswer": 1,
+          "type": "true-false"
+        },
+        {
+          "id": 2,
+          "text": "Which of these is not a JavaScript data type?",
+          "options": ["String", "Number", "Integer", "Boolean"],
+          "correctAnswer": 2,
+          "type": "multiple-choice"
+        },
+        {
+          "id": 3,
+          "text": "What does HTML stand for?",
+          "options": [
+            "Hyper Text Markup Language",
+            "High Tech Modern Language",
+            "Hyper Transfer Markup Language",
+            "Home Tool Markup Language"
+          ],
+          "correctAnswer": 0,
+          "type": "multiple-choice"
+        }
+      ]
+    }
+  ]
+}

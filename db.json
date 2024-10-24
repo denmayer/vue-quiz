@@ -1,0 +1,828 @@
+{
+  "quizzes": [
+    {
+      "id": "general-knowledge",
+      "name": "General Knowledge Quiz",
+      "description": "Test your knowledge of various topics in this general knowledge quiz.",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Which of the following countries are part of the United Kingdom?",
+          "options": [
+            "England",
+            "Scotland",
+            "Wales",
+            "Ireland"
+          ],
+          "correctAnswer": [
+            0,
+            1,
+            2
+          ],
+          "type": "multiple-response",
+          "explanation": "England, Scotland, and Wales are part of the United Kingdom. Ireland is a separate country, though Northern Ireland is part of the UK."
+        },
+        {
+          "id": 2,
+          "text": "The Eiffel Tower is located in Rome.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 1,
+          "type": "true-false",
+          "explanation": "False. The Eiffel Tower is located in Paris, France, not Rome."
+        },
+        {
+          "id": 3,
+          "text": "What is the capital of Australia?",
+          "options": [
+            "Sydney",
+            "Canberra",
+            "Melbourne",
+            "Brisbane"
+          ],
+          "correctAnswer": 1,
+          "type": "multiple-choice",
+          "explanation": "Canberra is the capital city of Australia, while Sydney, Melbourne, and Brisbane are other major cities."
+        }
+      ]
+    },
+    {
+      "id": "diabetes-knowledge",
+      "name": "Diabetes Fundamentals",
+      "description": "Test your knowledge of diabetes, its management, and related health concepts.",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Which of the following are common types of diabetes?",
+          "options": [
+            "Type 1 Diabetes",
+            "Type 2 Diabetes",
+            "Gestational Diabetes",
+            "Hypoglycemia"
+          ],
+          "correctAnswer": [
+            0,
+            1,
+            2
+          ],
+          "type": "multiple-response",
+          "explanation": "The three main types of diabetes are Type 1, Type 2, and Gestational Diabetes. Hypoglycemia is a condition related to low blood sugar but is not a type of diabetes."
+        },
+        {
+          "id": 2,
+          "text": "Insulin is produced in the pancreas.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 0,
+          "type": "true-false",
+          "explanation": "True. Insulin is produced by the beta cells in the pancreas and is essential for regulating blood sugar levels."
+        },
+        {
+          "id": 3,
+          "text": "Which of the following is NOT a symptom of diabetes?",
+          "options": [
+            "Frequent urination",
+            "Increased thirst",
+            "Sudden weight gain",
+            "Blurred vision"
+          ],
+          "correctAnswer": 2,
+          "type": "multiple-choice",
+          "explanation": "Sudden weight loss, not weight gain, is more commonly associated with diabetes symptoms. The other options are common symptoms of diabetes."
+        },
+        {
+          "id": 4,
+          "text": "Which lifestyle changes are important for managing Type 2 diabetes?",
+          "options": [
+            "Regular exercise",
+            "Healthy diet",
+            "Smoking cessation",
+            "Maintaining healthy body weight"
+          ],
+          "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "type": "multiple-response",
+          "explanation": "All these lifestyle changes help manage Type 2 diabetes by improving insulin sensitivity and controlling blood sugar levels."
+        },
+        {
+          "id": 5,
+          "text": "Type 1 diabetes is often diagnosed in childhood.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 0,
+          "type": "true-false",
+          "explanation": "True. Type 1 diabetes, also known as juvenile diabetes, is commonly diagnosed in children and young adults."
+        },
+        {
+          "id": 6,
+          "text": "Which of the following complications is associated with uncontrolled diabetes?",
+          "options": [
+            "Kidney damage",
+            "Nerve damage",
+            "Heart disease",
+            "Vision problems"
+          ],
+          "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "type": "multiple-response",
+          "explanation": "Uncontrolled diabetes can lead to complications like kidney damage (nephropathy), nerve damage (neuropathy), heart disease, and vision problems (retinopathy)."
+        },
+        {
+          "id": 7,
+          "text": "Gestational diabetes only affects women during pregnancy.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 0,
+          "type": "true-false",
+          "explanation": "True. Gestational diabetes develops during pregnancy and typically resolves after the baby is born, but it increases the risk of Type 2 diabetes later in life."
+        },
+        {
+          "id": 8,
+          "text": "What is the main role of insulin in the body?",
+          "options": [
+            "To break down fats",
+            "To convert glucose into energy",
+            "To store glucose in muscles",
+            "To regulate blood sugar levels"
+          ],
+          "correctAnswer": 3,
+          "type": "multiple-choice",
+          "explanation": "Insulin's primary role is to regulate blood sugar levels by allowing cells to take in glucose for energy or storage."
+        },
+        {
+          "id": 9,
+          "text": "People with Type 2 diabetes always need to take insulin.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 1,
+          "type": "true-false",
+          "explanation": "False. While some people with Type 2 diabetes may eventually need insulin, many manage the condition through lifestyle changes and oral medications."
+        },
+        {
+          "id": 10,
+          "text": "Which of the following can help prevent Type 2 diabetes?",
+          "options": [
+            "Regular physical activity",
+            "Maintaining a healthy weight",
+            "Eating a balanced diet",
+            "All of the above"
+          ],
+          "correctAnswer": 3,
+          "type": "multiple-choice",
+          "explanation": "All of the above. A healthy lifestyle, including regular physical activity, maintaining a healthy weight, and eating a balanced diet, can help prevent Type 2 diabetes."
+        }
+      ]
+    },
+    {
+      "id": "machine-learning",
+      "name": "Machine Learning Fundamentals",
+      "description": "Test your knowledge of machine learning concepts, algorithms, and best practices.",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Which of the following are supervised learning algorithms?",
+          "options": [
+            "Linear Regression",
+            "Random Forest",
+            "Support Vector Machines",
+            "Logistic Regression"
+          ],
+          "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "type": "multiple-response",
+          "explanation": "All these algorithms are supervised learning methods that require labeled training data."
+        },
+        {
+          "id": 2,
+          "text": "Deep learning is a subset of machine learning.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 0,
+          "type": "true-false",
+          "explanation": "Deep learning is indeed a subset of machine learning that uses neural networks with multiple layers."
+        },
+        {
+          "id": 3,
+          "text": "What is the main purpose of the activation function in neural networks?",
+          "options": [
+            "To add non-linearity to the network",
+            "To normalize the input data",
+            "To initialize weights",
+            "To reduce overfitting"
+          ],
+          "correctAnswer": 0,
+          "type": "multiple-choice",
+          "explanation": "Activation functions introduce non-linearity, allowing neural networks to learn complex patterns."
+        },
+        {
+          "id": 4,
+          "text": "Which techniques are commonly used to prevent overfitting?",
+          "options": [
+            "Dropout",
+            "Regularization",
+            "Early Stopping",
+            "Data Augmentation"
+          ],
+          "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "type": "multiple-response",
+          "explanation": "All these techniques help prevent overfitting by reducing model complexity or increasing data diversity."
+        },
+        {
+          "id": 5,
+          "text": "K-means is a supervised learning algorithm.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 1,
+          "type": "true-false",
+          "explanation": "K-means is an unsupervised learning algorithm used for clustering."
+        },
+        {
+          "id": 6,
+          "text": "Which loss function is typically used for binary classification?",
+          "options": [
+            "Binary Cross-Entropy",
+            "Mean Squared Error",
+            "Categorical Cross-Entropy",
+            "Hinge Loss"
+          ],
+          "correctAnswer": 0,
+          "type": "multiple-choice",
+          "explanation": "Binary Cross-Entropy is specifically designed for binary classification problems."
+        },
+        {
+          "id": 7,
+          "text": "Which of these are types of cross-validation?",
+          "options": [
+            "K-fold",
+            "Leave-one-out",
+            "Stratified",
+            "Hold-out"
+          ],
+          "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "type": "multiple-response",
+          "explanation": "All these are valid cross-validation techniques used to assess model performance."
+        },
+        {
+          "id": 8,
+          "text": "Gradient descent always finds the global minimum for linear regression.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 0,
+          "type": "true-false",
+          "explanation": "For linear regression, the cost function is convex, so gradient descent will find the global minimum."
+        },
+        {
+          "id": 9,
+          "text": "What is the purpose of the learning rate in gradient descent?",
+          "options": [
+            "Controls how much to adjust weights in each iteration",
+            "Determines the number of training epochs",
+            "Sets the batch size",
+            "Defines the model architecture"
+          ],
+          "correctAnswer": 0,
+          "type": "multiple-choice",
+          "explanation": "Learning rate determines the step size for weight updates during training."
+        },
+        {
+          "id": 10,
+          "text": "Which metrics are commonly used to evaluate classification models?",
+          "options": [
+            "Accuracy",
+            "Precision",
+            "Recall",
+            "F1-Score"
+          ],
+          "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "type": "multiple-response",
+          "explanation": "All these metrics provide different insights into classification model performance."
+        },
+        {
+          "id": 11,
+          "text": "Feature scaling is always necessary for neural networks.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 0,
+          "type": "true-false",
+          "explanation": "Feature scaling helps neural networks converge faster and perform better."
+        },
+        {
+          "id": 12,
+          "text": "Which algorithm is best suited for sentiment analysis?",
+          "options": [
+            "LSTM",
+            "Linear Regression",
+            "K-means",
+            "PCA"
+          ],
+          "correctAnswer": 0,
+          "type": "multiple-choice",
+          "explanation": "LSTM networks are well-suited for sequential data like text in sentiment analysis."
+        },
+        {
+          "id": 13,
+          "text": "Which of these are ensemble learning methods?",
+          "options": [
+            "Random Forest",
+            "Gradient Boosting",
+            "AdaBoost",
+            "Bagging"
+          ],
+          "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "type": "multiple-response",
+          "explanation": "All these methods combine multiple models to improve prediction accuracy."
+        },
+        {
+          "id": 14,
+          "text": "The curse of dimensionality affects only neural networks.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 1,
+          "type": "true-false",
+          "explanation": "The curse of dimensionality affects all machine learning algorithms."
+        },
+        {
+          "id": 15,
+          "text": "What is the main advantage of using mini-batch gradient descent?",
+          "options": [
+            "Balance between computational efficiency and stability",
+            "Guaranteed convergence to global minimum",
+            "No need for learning rate tuning",
+            "Eliminates overfitting"
+          ],
+          "correctAnswer": 0,
+          "type": "multiple-choice",
+          "explanation": "Mini-batch gradient descent provides a good trade-off between batch and stochastic gradient descent."
+        },
+        {
+          "id": 16,
+          "text": "Which techniques can help handle imbalanced datasets?",
+          "options": [
+            "Oversampling",
+            "Undersampling",
+            "SMOTE",
+            "Class weights"
+          ],
+          "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "type": "multiple-response",
+          "explanation": "All these techniques help address class imbalance issues in datasets."
+        },
+        {
+          "id": 17,
+          "text": "Batch normalization can only be used in convolutional neural networks.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 1,
+          "type": "true-false",
+          "explanation": "Batch normalization can be used in any type of neural network."
+        },
+        {
+          "id": 18,
+          "text": "Which optimization algorithm is most commonly used in deep learning?",
+          "options": [
+            "Adam",
+            "Standard SGD",
+            "Newton's Method",
+            "Gradient Descent"
+          ],
+          "correctAnswer": 0,
+          "type": "multiple-choice",
+          "explanation": "Adam combines the benefits of RMSprop and momentum, making it popular in deep learning."
+        },
+        {
+          "id": 19,
+          "text": "Which of these are valid approaches for hyperparameter tuning?",
+          "options": [
+            "Grid Search",
+            "Random Search",
+            "Bayesian Optimization",
+            "Genetic Algorithms"
+          ],
+          "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "type": "multiple-response",
+          "explanation": "All these methods can be used to find optimal hyperparameters."
+        },
+        {
+          "id": 20,
+          "text": "Transfer learning always requires fine-tuning the entire model.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 1,
+          "type": "true-false",
+          "explanation": "Transfer learning can be done with or without fine-tuning, depending on the task."
+        }
+      ]
+    },
+    {
+      "id": "system-design",
+      "name": "System Design Principles",
+      "description": "Test your knowledge of system design concepts, patterns, and best practices.",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Which of these are valid strategies for horizontal scaling?",
+          "options": [
+            "Load Balancing",
+            "Database Sharding",
+            "Caching",
+            "Message Queues"
+          ],
+          "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "type": "multiple-response",
+          "explanation": "All these strategies help distribute load across multiple machines."
+        },
+        {
+          "id": 2,
+          "text": "CAP theorem states that a distributed system can have all three: Consistency, Availability, and Partition tolerance.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 1,
+          "type": "true-false",
+          "explanation": "According to CAP theorem, a distributed system can only guarantee two out of these three properties."
+        },
+        {
+          "id": 3,
+          "text": "Which pattern is best suited for handling asynchronous operations?",
+          "options": [
+            "Publisher-Subscriber",
+            "Singleton",
+            "Factory",
+            "Decorator"
+          ],
+          "correctAnswer": 0,
+          "type": "multiple-choice",
+          "explanation": "Publisher-Subscriber pattern is ideal for handling asynchronous events and notifications."
+        },
+        {
+          "id": 4,
+          "text": "Which caching strategies can improve system performance?",
+          "options": [
+            "Write-through",
+            "Write-back",
+            "Cache-aside",
+            "Read-through"
+          ],
+          "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "type": "multiple-response",
+          "explanation": "All these caching strategies can be effective depending on the use case."
+        },
+        {
+          "id": 5,
+          "text": "ACID properties are only applicable to SQL databases.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 1,
+          "type": "true-false",
+          "explanation": "ACID properties can be implemented in any database system, including NoSQL databases."
+        },
+        {
+          "id": 6,
+          "text": "What is the primary purpose of a load balancer?",
+          "options": [
+            "Distribute traffic across servers",
+            "Cache database queries",
+            "Encrypt data",
+            "Monitor system health"
+          ],
+          "correctAnswer": 0,
+          "type": "multiple-choice",
+          "explanation": "Load balancers primarily distribute incoming traffic across multiple servers."
+        },
+        {
+          "id": 7,
+          "text": "Which factors should be considered when choosing a database?",
+          "options": [
+            "Consistency requirements",
+            "Scalability needs",
+            "Query patterns",
+            "Data structure"
+          ],
+          "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "type": "multiple-response",
+          "explanation": "All these factors are crucial in selecting the appropriate database."
+        },
+        {
+          "id": 8,
+          "text": "Microservices always provide better performance than monolithic architectures.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 1,
+          "type": "true-false",
+          "explanation": "The choice between microservices and monolithic depends on various factors."
+        },
+        {
+          "id": 9,
+          "text": "Which protocol is most suitable for real-time bidirectional communication?",
+          "options": [
+            "WebSocket",
+            "HTTP",
+            "FTP",
+            "SMTP"
+          ],
+          "correctAnswer": 0,
+          "type": "multiple-choice",
+          "explanation": "WebSocket provides full-duplex communication needed for real-time applications."
+        },
+        {
+          "id": 10,
+          "text": "Which tools can be used for monitoring distributed systems?",
+          "options": [
+            "Prometheus",
+            "Grafana",
+            "ELK Stack",
+            "New Relic"
+          ],
+          "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "type": "multiple-response",
+          "explanation": "All these tools provide different aspects of system monitoring and observability."
+        },
+        {
+          "id": 11,
+          "text": "Rate limiting is only necessary for public APIs.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 1,
+          "type": "true-false",
+          "explanation": "Rate limiting is important for both public and internal APIs to prevent abuse."
+        },
+        {
+          "id": 12,
+          "text": "What is the main purpose of a message queue?",
+          "options": [
+            "Decouple components",
+            "Store permanent data",
+            "Load balance requests",
+            "Cache responses"
+          ],
+          "correctAnswer": 0,
+          "type": "multiple-choice",
+          "explanation": "Message queues primarily help decouple system components and handle asynchronous processing."
+        },
+        {
+          "id": 13,
+          "text": "Which security measures should be implemented in a web application?",
+          "options": [
+            "HTTPS",
+            "Input validation",
+            "Authentication",
+            "Rate limiting"
+          ],
+          "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "type": "multiple-response",
+          "explanation": "All these security measures are essential for protecting web applications."
+        },
+        {
+          "id": 14,
+          "text": "DNS round-robin is a reliable load balancing strategy.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 1,
+          "type": "true-false",
+          "explanation": "DNS round-robin doesn't account for server health or capacity."
+        },
+        {
+          "id": 15,
+          "text": "Which strategy is best for handling system failures?",
+          "options": [
+            "Circuit Breaker",
+            "Retry with exponential backoff",
+            "Fallback response",
+            "Timeout"
+          ],
+          "correctAnswer": 0,
+          "type": "multiple-choice",
+          "explanation": "Circuit Breaker pattern prevents cascade failures in distributed systems."
+        },
+        {
+          "id": 16,
+          "text": "Which factors affect system latency?",
+          "options": [
+            "Network distance",
+            "Database queries",
+            "CPU processing",
+            "I/O operations"
+          ],
+          "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "type": "multiple-response",
+          "explanation": "All these factors contribute to overall system latency."
+        },
+        {
+          "id": 17,
+          "text": "Eventual consistency guarantees immediate data consistency across all nodes.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 1,
+          "type": "true-false",
+          "explanation": "Eventual consistency only guarantees that data will become consistent over time."
+        },
+        {
+          "id": 18,
+          "text": "Which is the most appropriate storage for session data?",
+          "options": [
+            "Redis",
+            "PostgreSQL",
+            "File system",
+            "MongoDB"
+          ],
+          "correctAnswer": 0,
+          "type": "multiple-choice",
+          "explanation": "Redis is ideal for session storage due to its speed and built-in expiration feature."
+        },
+        {
+          "id": 19,
+          "text": "Which strategies can help improve database performance?",
+          "options": [
+            "Indexing",
+            "Query optimization",
+            "Connection pooling",
+            "Denormalization"
+          ],
+          "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "type": "multiple-response",
+          "explanation": "All these strategies can significantly improve database performance."
+        },
+        {
+          "id": 20,
+          "text": "Containerization always improves application performance.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 1,
+          "type": "true-false",
+          "explanation": "Containerization primarily helps with deployment and scaling, not necessarily performance."
+        }
+      ]
+    },
+    {
+      "id": "fa4feed0-870a-4d42-a75a-2a6083301a5d",
+      "name": "Test quiz",
+      "description": "This is a test quiz made with the quiz manager",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": 0,
+          "text": "Is water wet?",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 0,
+          "type": "true-false",
+          "explanation": "Yes, that's obvious!"
+        }
+      ]
+    }
+  ],
+  "attempts": [
+    {
+      "quizId": "fa4feed0-870a-4d42-a75a-2a6083301a5d",
+      "quizName": "Test quiz",
+      "date": "2024-10-24T22:20:02.855Z",
+      "score": 1,
+      "totalQuestions": 1,
+      "percentage": 100,
+      "answers": [
+        {
+          "questionId": 0,
+          "userAnswer": 0,
+          "correct": true
+        }
+      ],
+      "id": 1
+    },
+    {
+      "quizId": "fa4feed0-870a-4d42-a75a-2a6083301a5d",
+      "quizName": "Test quiz",
+      "date": "2024-10-24T22:20:13.692Z",
+      "score": 1,
+      "totalQuestions": 1,
+      "percentage": 100,
+      "answers": [
+        {
+          "questionId": 0,
+          "userAnswer": 0,
+          "correct": true
+        }
+      ],
+      "id": 2
+    }
+  ]
+}
